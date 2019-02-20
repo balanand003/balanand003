@@ -5,7 +5,7 @@ class Reverse
 { 
 public static void main(String[] args) 
 { 
-String input = "hai"; 
+String input = "aabbcc"; 
 byte [] strAsByteArray = input.getBytes(); 
 byte [] result =  
 new byte [strAsByteArray.length]; 
