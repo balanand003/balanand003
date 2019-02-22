@@ -11,7 +11,7 @@ def main():
             f=0
             for i in range(n):
                               1.append(int(input()))
-            m=max)1)
+            m=max(1)
             print(m+n)
 main()            
             
