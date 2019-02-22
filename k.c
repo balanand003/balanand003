@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include<conio.h>
 void main() 
 {
    int num,k,i,j,b[50],flg=0;
