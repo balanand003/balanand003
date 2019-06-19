@@ -1,6 +1,6 @@
-string=input()
-l=[]
-for i in range(len(string)):
-    l.append(string[i])
-l.append('.')
-print(''.join(l))
+s=input()
+jk=[]
+for i in range(len(s)):
+    jk.append(s[i])
+jk.append('.')
+print(''.join(jk))
