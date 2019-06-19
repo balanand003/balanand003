@@ -5,9 +5,9 @@ x=len(C)
 for i in range(0,2**A):
 	m=bin(i)[2::]
 	if len(m)<li:
-		v.append([m.count("1"),(x-len(m))*"0"+m])
+		B.append([m.count("1"),(x-len(m))*"0"+m])
 	else:
-		v.append([m.count("1"),m])
-v.sort()
+		B.append([m.count("1"),m])
+B.sort()
 for i in range(0,len(B)):
 	print(B[i][1])
