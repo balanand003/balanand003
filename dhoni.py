@@ -6,7 +6,7 @@ if(len(A)==5):
         if(A[i] in B):
             C=C+1
     if(C==5):
-        print("no")
+        print("yes")
     else:
         print("no")
 else:
