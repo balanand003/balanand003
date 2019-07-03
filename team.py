@@ -1,6 +1,6 @@
 A,B=map(int,input().split())
 C=list(map(int,input().split()))
-C=sorted(c)
+C=sorted(C)
 t,i=0,0
 f=0
 while i<len(C)-2:
